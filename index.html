@@ -1,0 +1,1221 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="#">
+      <meta name="author" content="#">
+      <title> myfaresbuddy | Home </title>
+      <link rel="shortcut icon" href="images/fabicons.png" type="image/x-icon">
+      <link href="css2?family=Poppins:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/page-style.css" rel="stylesheet">
+   </head>
+
+
+ <div class="main_header">
+   <nav class="navbar navbar-expand-sm">
+      <div class="container">
+         <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav_line"></li>
+               <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About us</a>
+               </li>
+               <li class="nav_line"></li>
+               <li class="nav-item">
+                  <a class="nav-link" href="flight-deals.html">Flights Deals</a>
+               </li>
+               <li class="nav_line"></li>
+               <li class="nav-item">
+                  <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
+               </li>
+               <li class="nav_line"></li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact-us.html">Contact us</a>
+               </li>
+            </ul>
+            <div class="header_toll">
+               <img src="images/phone-calls.png">
+               <p>Book Online (OR) Call Us</p>
+               <a href="tel:+1-888-409-8077"> +1-888-409-8077</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+</div>
+
+<div class="main_banner">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="banner_captions">
+               <h1>An excursion of 1,000 miles starts with a solitary step</h1>
+               <p>Go has assisted us with understanding the importance of life and it has assisted us with turning out to be better individuals. Each time we travel, we see the world with new eyes.</p>
+            </div>
+            <div class="form_include">
+               <link rel="stylesheet" type="text/css" href="Searchform/css/style.css">
+<link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="col-md-12 fm_gp">
+   <div class="panel with-nav-tabs panel-default">
+      <div class="panel-heading">
+         <ul class="nav nav-tabs">
+            <li>
+               <a href="#tab1default" class="active" data-bs-toggle="tab"> <i class="fa fa-plane"></i> Flights Bookings </a>
+            </li>
+             <!-- <li>
+              <a href="#tab1default2" data-bs-toggle="tab"> <i class="fa fa-plane"></i> Hotel </a>
+           </li> -->           
+         </ul>
+      </div>
+      <div class="panel-body">
+         <div class="tab-content">
+            <div class="tab-pane in active" id="tab1default">
+               <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 frm_gap">
+                     <div class="form_bx">
+                        <form method="GET" action="flight/search.html" onsubmit="return first_form()">
+                           <input type="hidden" name="sid" value="20231113114846">
+                           <input type="hidden" name="t" value="1">
+                           <input type="hidden" name="meta" value="myfaresbuddy_us">
+                           <div class="row">
+                              <div class="col-md-12 head_gp">
+                                 <div class="flight_type">
+                                    <div class="form-check-inline">
+                                       <label class="radio-inline customradio" id="round_trip">Round Trip
+                                       <input type="radio" checked="checked" onclick="show_date(this.value)" value="roundtrip" name="tripType">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                       <label class="fly_line">|</label>
+                                       <label class="radio-inline customradio" id="one_way">One Way
+                                       <input type="radio" onclick="show_date(this.value)" value="oneway" name="tripType">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row fm_ln1">
+                              <div class="col-md-3 rsts col-xs-12 ffrms_ppd">
+                                 <div class="res_hh">  From airport / city  </div>
+                                 <div class="tion_sea"> From airport / city </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fas fa-plane-departure"></i> <!-- <img src="Searchform/images/plane_fly.png"> --> 
+                                    </label>
+                                    <input type="text" required="required" class="form-control ipt1 location-fld serlocation" autocomplete="off" placeholder="City or airport" name="origin" id="location">
+                                    
+                                 </div>
+                              </div>
+                              <div class="roud_icons"> <img src="Searchform/images/swipe-icn.png"> </div>
+                              <div class="col-md-3 col-xs-12 rsts ffrms_ppd">
+                                 <div class="res_hh">  To airport / city  </div>
+                                 <div class="tion_sea"> To airport / city </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fas fa-plane-arrival"></i> <!-- <img src="Searchform/images/plane_down.png"> -->  
+                                    </label>
+                                    <input required="required" type="text" class="form-control ipt1 location-fld serlocation" placeholder="City or airport" name="destination" autocomplete="off" id="location2">
+                                    <div style="display: none;" onclick="close_btn(this.id);" id="location2_cleardata" class="closed_icon"> <i class="fa fa-remove"></i> </div>
+                                    
+                                 </div>
+                              </div>
+                              <div class="col-md-2  col-xs-6 ffrms_ppd">
+                                 <div class="res_hh">  Departure  </div>
+                                 <div class="tion_sea"> Departure </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fa fa-calendar"></i> <!-- <img src="Searchform/images/dateoick.png"> --> 
+                                    </label>
+                                    <input id="depDt" type="hidden" value=''>
+                                    <input type="text" class="form-control ipt1 readtrue" id="datepicker" required="required" autocomplete="off" placeholder="Depart Date" name="departureDate" readonly="true" value="">
+                                 </div>
+                              </div>
+                              <style>.readtrue {
+    cursor: pointer !important;
+    background-color: #fff1f600 !important;
+    opacity: 1;
+}
+                                 .form-control[disabled], fieldset[disabled]{  background-color:#f8f3e7 !important; } .form-control
+                              </style>
+                              <div class="col-md-2 col-xs-6 ffrms_ppd">
+                                 <div class="res_hh"> Return </div>
+                                 <div class="tion_sea"> Return </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fa fa-calendar"></i><!-- <img src="Searchform/images/dateoick.png"> --> 
+                                    </label>
+                                    <input id="retDt" type="hidden" value=''>
+                                    <input type="text" autocomplete="off" class="form-control ipt1 readtrue" required="required" id="datepicker2" placeholder="Return Date" readonly="true" value="" name="returnDate">                             
+                                 </div>
+                              </div>
+                              <div class="col-md-2 col-sm-6 col-xs-12 ffrms_ppd">
+                                 <div class="res_hh">
+                                    <!-- Cabin Class &  -->Travelers  
+                                 </div>
+                                 <div class="tion_sea"> Class & Travelers </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fa fa-male"></i><!-- <img src="Searchform/images/passenger_iim.png"> --> 
+                                    </label>
+                                    <input type="text" class="form-control ipt1" placeholder="Passengers 1" name="" autocomplete="off" id="btm_clk">
+                                    <div class="psg_dls" style="display: none;">
+                                       <div class="col-xs-12 gapres_dd">
+                                          <div class="form-group">
+                                             <label class="frm_llbs2">
+                                                <i class="fa fa-male"></i><!-- <img src="Searchform/images/passenger_iim.png"> --> 
+                                             </label>
+                                             <select class="form-control ipt1" name="classType" placeholder="Economy">
+                                                <option selected="selected" value="Y">Economy</option>
+                                                <option value="S"> Premium Economy </option>
+                                                <option value="C"> Business Class </option>
+                                                <option value="F"> First Class </option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-sm-12 gapres_dd">
+                                          
+                                             <div class="pass_bx">
+                                                <label>Adults <small>(+11 yrs)</small></label>
+                                                <div class="input-group number-spinner">
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn mns_btn" data-dir="dwn" onclick="decrease_adult_rt()"><span class="fa fa-minus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                      <div class="col-md-6 col-6 inpt_gp">
+                                                         <input type="text" id="AdultsRT" class="form-control text-center add_num" name="adt" value="1">
+                                                      </div>
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn add_btn" data-dir="up" onclick="increase_adult_rt()"><span class="fa fa-plus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                       </div>
+                                       <div class="col-sm-12 gapres_dd">
+                                             <div class="pass_bx">
+                                                <label>Child <small>(2-11 yrs)</small></label>
+                                                <div class="input-group number-spinner">
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn mns_btn" data-dir="dwn" onclick="decrease_child_rt()"><span class="fa fa-minus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                      <div class="col-md-6 col-6 inpt_gp">
+                                                         <input type="text" id="ChildrenRT" class="form-control text-center add_num" name="chd" value="0">
+                                                      </div>
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn add_btn" data-dir="up" onclick="increase_child_rt()"><span class="fa fa-plus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                </div>
+                                             </div>
+                                       </div>
+                                       <div class="col-sm-12 gapres_dd">
+                                             <div class="pass_bx">
+                                                <label> Infant <small>(Upto 2 yrs)  </small>
+                                                </label> 
+                                                
+                                                <div class="input-group number-spinner">
+                                                   
+                                                      <div class="col-md-3  col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn mns_btn" data-dir="dwn" onclick="decrease_infant_rt()"><span class="fa fa-minus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                      <div class="col-md-6 col-6 inpt_gp">
+                                                         <input type="text" class="form-control text-center add_num" id="InfantsRT" name="inf" value="0">
+                                                      </div>
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn add_btn" data-dir="up" onclick="increase_infant_rt()"><span class="fa fa-plus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                   
+                                                </div>
+                                             </div>
+                                          
+                                       </div>
+                                       <div class="col-sm-12 col-xs-12 gapres_dd">
+                                          <!-- <div class="row"> -->
+                                          <div class="btn_dn">
+                                             <button type="button" onclick="all_pesenger();" class="btn_done">Done</button>
+                                          </div>
+                                          <!-- </div> -->
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              <div class="col-md-1 col-xs-12 solotab ffrms_ppd">
+                                 <button type="sumit" name="submitForm"> Search </button>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+           
+
+         </div>
+      </div>
+   </div>
+</div>
+<link rel="stylesheet" href="Searchform/css/jquery-ui.css">
+<script src="Searchform/js/jquery.min.js"></script>
+<!-- <script src="Searchform/js/bootstrap.min.js"></script> -->
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+<script src="Searchform/js/jquery-ui.js"></script>
+<!--<script src="js/airports.js"></script>-->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<script>
+   $(document).ready(function() { 
+   $("#myModal").modal("show"); 
+   
+   $("#myBtn").click(function() { 
+   $("#myModal").modal("hide"); 
+   }); 
+   }); 
+</script>
+<script type="text/javascript">
+   function picture(){ 
+   var pic = "search.gif"
+   document.getElementById('bigpic').style.display='block';
+   document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+   }
+</script>
+<script>
+   $(document).ready(function(){
+     $("#one_way").click(function(){
+       $("#datepicker2").prop('disabled', true);
+     });
+     $("#round_trip").click(function(){
+       $("#datepicker2").prop('disabled', false);
+     });
+   });
+</script>
+<script>
+   function addDays(date, days) {
+     var result = new Date(date);
+     result.setDate(result.getDate() + days);
+     return result;
+   }
+   
+   function formatDate(date)
+   {
+   var d = new Date(date);
+   var curr_date = d.getDate();
+   var curr_month = d.getMonth() + 1; //Months are zero based
+   var curr_year = d.getFullYear();
+   return curr_date + "-" + curr_month + "-" + curr_year;   
+   }
+   
+       jQuery(function($) {
+        $("#datepicker").datepicker({
+            minDate: 'D',
+            dateFormat: "dd-mm-yy",
+            // defaultDate: "+1w",
+            numberOfMonths: Resolution(),
+            onClose: function(selectedDate) {
+                var s = selectedDate.split('-');
+                
+                $("#datepicker2").datepicker("option", "minDate", selectedDate);
+                $("#datepicker2").select();
+                return false;
+            }
+        });
+    });
+
+    jQuery(function($) {
+         $("#datepicker2").datepicker({
+            minDate: '+1D',
+            dateFormat: "dd-mm-yy",
+            // defaultDate: "+1w",
+            numberOfMonths: Resolution(),
+            onClose: function(selectedDate) {
+                var s = selectedDate.split('-');
+                $('#datepicker2').val(d_dat);
+                $('#datepicker2_label').html(s[1] + '-' + s[3]);
+                return false;
+            }
+        });
+    });
+</script>
+<script>
+   jQuery(function($) {
+     $("#datepickerH").datepicker({
+         minDate: 'D',
+         dateFormat: "dd-m-yy",
+         // defaultDate: "+1w",
+         numberOfMonths: Resolution(),
+         onClose: function(selectedDate) {
+             $('#depdth').val(selectedDate);
+             $('#datepickerH').val(selectedDate);
+             $("#datepickerH2").datepicker("option", "minDate", selectedDate);
+             $("#datepickerH2").select();
+             return false;
+         }
+     });
+   });
+   
+   
+   
+   jQuery(function($) {
+     $("#datepickerH11").datepicker({
+         minDate: 'D',
+         dateFormat: "M-D-dd-yy",
+         // defaultDate: "+1w",
+         numberOfMonths: Resolution(),
+         onClose: function(selectedDate) {
+             alert(selectedDate);
+             var s = selectedDate.split('-');
+             var depdate = s[0] + '-' + s[2] + '-' + s[3];
+             $('#depdth').val(depdate);
+             var d_dat = s[0] + '-' + s[2];
+             $('#datepickerH').val(d_dat);
+             $('#datepicker_label').html(s[1] + '-' + s[3]);
+             $("#datepickerH2").datepicker("option", "minDate", selectedDate);
+             $("#datepickerH2").select();
+             return false;
+         }
+     });
+   });
+   
+   jQuery(function($) {
+     $("#datepickerH2").datepicker({
+         minDate: '+1D',
+         dateFormat: "dd-m-yy",
+         // defaultDate: "+1w",
+         numberOfMonths: Resolution(),
+         onClose: function(selectedDate) {
+             
+             $('#retdth').val(selectedDate);
+            
+             $('#datepickerH2').val(selectedDate);
+             return false;
+         }
+     });
+   });
+</script>
+<script>
+   jQuery(function($) {
+       $("#datepicker_car").datepicker({
+           minDate: 'D',
+           dateFormat: "M-D-dd-yy",
+           // defaultDate: "+1w",
+           numberOfMonths: Resolution(),
+           onClose: function(selectedDate) {
+               var s = selectedDate.split('-');
+               var depdate = s[0] + '-' + s[2] + '-' + s[3];
+               $('#depDt').val(depdate);
+               var d_dat = s[0] + '-' + s[2];
+               $('#datepicker_car').val(d_dat);
+               $('#datepicker_label').html(s[1] + '-' + s[3]);
+               $("#datepicker_car2").datepicker("option", "minDate", selectedDate);
+               $("#datepicker_car2").select();
+               return false;
+           }
+       });
+   });
+   
+   jQuery(function($) {
+       $("#datepicker_car2").datepicker({
+           minDate: '+1D',
+           dateFormat: "M-D-dd-yy",
+           // defaultDate: "+1w",
+           numberOfMonths: Resolution(),
+           onClose: function(selectedDate) {
+               var s = selectedDate.split('-');
+               var depdate = s[0] + '-' + s[2] + '-' + s[3];
+               $('#retDt').val(depdate);
+               var d_dat = s[0] + '-' + s[2];
+               $('#datepicker_car2').val(d_dat);
+               $('#datepickerH2_label').html(s[1] + '-' + s[3]);
+               return false;
+           }
+       });
+   });
+</script>
+<script>
+   function first_form()
+    {
+    var a=document.getElementById("location").value;    
+    var b=document.getElementById("location2").value;   
+    
+    document.getElementById("location").value=a.substring(0,3); 
+    document.getElementById("location2").value=b.substring(0,3);    
+    
+    
+    
+    }
+</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+       $("#btm_clk").click(function() {
+           $(".psg_dls").toggle(1000);
+       });
+       $(".btn_done").click(function() {
+   
+           var total = all_pesenger();
+           $("#btm_clk").val('Passengers ' + total);
+           $(".psg_dls").hide(1000);
+       });
+   });
+</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+       $("#btm_clkH").click(function() {
+           $(".psg_dls").toggle(1000);
+       });
+       $(".btn_doneH").click(function() {
+   
+           var total = all_pesenger();
+           $("#btm_clkH").val('Adults/child ' + total);
+           $(".psg_dls").hide(1000);
+       });
+   });
+</script>
+<script type="text/javascript">
+   function show_date(data) {
+   
+       if (data == 'oneway') {
+           document.getElementById("datepicker2").disabled = true;
+           var a = document.getElementById("datepicker2");
+     document.getElementById("retDt").value="";
+   document.getElementById("datepicker2").value="";
+           a.removeAttribute("required");
+       } else if (data == 'roundtrip') {
+           document.getElementById("datepicker2").disabled = false;
+           var b = document.getElementById("datepicker2");
+           b.setAttribute("required", true);
+       }
+   
+   }
+</script>
+<script>
+   jQuery(function($) {
+   
+       $('input').focus(function() {
+           $(this).removeAttr('placeholder');
+       });
+   
+   });
+   
+</script>
+<script>
+   jQuery(function($) {   
+   //alert("hiiii");
+   var arr = [];
+   $.getJSON('airport.json', function(data) {
+   $.each(data, function(key, value) {
+   //alert(value);
+   var codes = value.substring(0,3);
+   //alert(codes);
+    if ($.inArray(value, arr) === -1) {
+        arr.push(value);
+    }
+   })
+   });
+   //console.log(arr);
+   $("#location").autocomplete({
+   source: function( request, response ) {
+   var stringLength = $.ui.autocomplete.escapeRegex( request.term ).length;
+   //alert(stringLength);
+           var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+   var matcher2 = new RegExp( $.ui.autocomplete.escapeRegex( request.term )+"+", "i" );
+   
+   //alert(matcher);
+   var isData = 1;
+         response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   if(stringLength<=3)
+   {
+   if(matcher.test( item ))
+   {
+    isData = 22;
+   }
+                   return matcher.test( item );
+   
+   }
+   else
+   {
+   if(matcher2.test( item ))
+   {
+   isData = 22;
+   }
+   return matcher2.test( item ); 
+   }
+   
+         }) );
+   //alert(isData);
+   if(stringLength==3 && isData == 1 )
+   {
+   response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   
+                   return matcher2.test( item );
+   
+   
+   
+         }) );
+   }
+   },
+   minLength: 1,
+   });
+   
+   $("#location2").autocomplete({
+        source: function( request, response ) {
+   var stringLength = $.ui.autocomplete.escapeRegex( request.term ).length;
+   //alert(stringLength);
+           var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+   var matcher2 = new RegExp( $.ui.autocomplete.escapeRegex( request.term )+"+", "i" );
+   var isData = 1;
+         response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   if(stringLength<=3)
+   {
+   if(matcher.test( item ))
+   {
+    isData = 22;
+   }
+                   return matcher.test( item );
+   
+   }
+   else
+   {
+   if(matcher2.test( item ))
+   {
+   isData = 22;
+   }
+   return matcher2.test( item ); 
+   }
+   
+         }) );
+   //alert(isData);
+   if(stringLength==3 && isData == 1 )
+   {
+   response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   
+                   return matcher2.test( item );
+   
+   
+   
+         }) );
+   }
+   },
+   minLength: 1,
+   });
+   });
+</script>
+<script>
+   function close_btn(id) {
+       var array = id.split("_");
+       var content = array[0];
+       document.getElementById(content).value = '';
+       document.getElementById(id).style.display = 'none';
+       var label_id = content + '_label';
+       if (content == 'location') {
+           $('#' + label_id).html('City Name');
+           $("#location").attr("placeholder", "Airport");
+   
+       } else if (content == 'location2') {
+           $('#' + label_id).html('City Name');
+           $("#location2").attr("placeholder", "Airport");
+   
+       }
+   
+   }
+</script>
+<script>
+   function add_rt_passenger() {
+       var infow = $("#InfantsRT").val();
+       var childow = $("#ChildrenRT").val();
+       var adultow = $("#AdultsRT").val();
+       var total = +infow + +childow + +adultow;
+       return total;
+   }
+   
+   function all_pesenger() {
+   
+       var infow = $("#InfantsRT").val();
+       var childow = $("#ChildrenRT").val();
+       var adultow = $("#AdultsRT").val();
+       var total = +infow + +childow + +adultow;
+       return total;
+   }
+   
+   function increase_adult_rt() {
+       var adult_pass = add_rt_passenger();
+       var adult_rt = document.getElementById("AdultsRT").value;
+       if (adult_pass < 9) {
+           var k = parseInt(adult_rt) + 1;
+           document.getElementById("AdultsRT").value = k;
+       }
+   
+   }
+   
+   function decrease_adult_rt() {
+       var adult_rt = document.getElementById("AdultsRT").value;
+       var InfantsRT = document.getElementById("InfantsRT").value;
+       if (adult_rt != '1') {
+           var k = parseInt(adult_rt) - 1;
+           document.getElementById("AdultsRT").value = k;
+   
+           if (InfantsRT >= adult_rt) {
+               var k = parseInt(InfantsRT) - 1;
+               document.getElementById("InfantsRT").value = k;
+           }
+   
+       }
+   }
+   
+   function increase_child_rt() {
+       var adult_pass = add_rt_passenger();
+       var adult_rt = document.getElementById("ChildrenRT").value;
+       if (adult_pass < 9) {
+   
+           var k = parseInt(adult_rt) + 1;
+           document.getElementById("ChildrenRT").value = k;
+       }
+   
+   }
+   
+   function decrease_child_rt() {
+       var adult_rt = document.getElementById("ChildrenRT").value;
+       if (adult_rt != '0') {
+           var k = parseInt(adult_rt) - 1;
+           document.getElementById("ChildrenRT").value = k;
+       }
+   }
+   
+   function increase_infant_rt() {
+   
+       var total_pass = add_rt_passenger();
+   
+       var adult_rt = document.getElementById("AdultsRT").value;
+       var InfantsRT = document.getElementById("InfantsRT").value;
+   
+       if (total_pass < 9 && InfantsRT < adult_rt) {
+           var k = parseInt(InfantsRT) + 1;
+           document.getElementById("InfantsRT").value = k;
+       }
+   
+   }
+   
+   function decrease_infant_rt() {
+       var adult_rt = document.getElementById("InfantsRT").value;
+       if (adult_rt != '0') {
+           var k = parseInt(adult_rt) - 1;
+           document.getElementById("InfantsRT").value = k;
+       }
+   }
+   
+   function Resolution() {
+       if (window.innerWidth < 780) {
+           return 1;
+       } else {
+           return 2;
+       }
+   }
+</script>            </div>
+         </div>
+      </div>
+   </div>
+   <div class="gsjhfj">
+          <div class="container">
+         <div class="row">
+          <div class="col-md-3">
+          <div class="Off_polkj">
+           <h4> 24/7 CUSTOMER SUPPORT </h4>
+           <h6> Success in each case </h6>
+          </div>
+         </div>
+         
+         <div class="col-md-3">
+          <div class="Off_polkj">
+           <h4> 10+ YEARS EXPERIENCE </h4>
+           <h6> In the Travel Industry </h6>
+          </div>
+         </div>
+         
+         <div class="col-md-3">
+          <div class="Off_polkj">
+           <h4> UNPUBLISHED INVENTORY </h4>
+           <h6> From all over the world </h6>
+          </div>
+         </div>
+         
+         <div class="col-md-3">
+          <div class="Off_polkj">
+           <h4> BEST RATES AND EXPERIENCE </h4>
+           <h6> At your service </h6>
+          </div>
+         </div>
+         </div>
+        </div>     
+       </div>
+</div>
+
+<div class="why_coah">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+       <div class="trips_hhgef">
+       <h3> Why Choose Us <span> myfaresbuddy </span> </h3>
+      </div>
+      </div>
+      
+      <div class="col-md-12">
+       <div class="row">
+             <div class="col-md-4">
+       <div class="Usps_usp__kLWpK">
+       <img src="images/why01.png">
+      <h4> SEARCH & SAVE </h4>
+      <p> By checking fares with hundreds of airlines at once, you will save a lot of money. </p>
+      </div>
+      </div>
+             <div class="col-md-4">
+       <div class="Usps_usp__kLWpK">
+       <img src="images/why02.png">
+      <h4> EASY BOOKING </h4>
+      <p> Our search engine is the quickest and most cost-effective way to schedule your next flight. </p>
+      </div>
+      </div>
+             <div class="col-md-4">
+       <div class="Usps_usp__kLWpK">
+       <img src="images/why03.png">
+      <h4> 24/7 SUPPORT </h4>
+      <p> Get assitance 24/7 on any kind of travel related query. We are happy to assit you. </p>
+      </div>
+      </div>
+             
+       
+      
+      
+      </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+
+<div class="about_area">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-7">
+            <div class="about_cont">
+               <h4>About <span>myfaresbuddy</span></h4>
+               <p>Myfaresbuddy is a well-known platform for selling flight tickets at an affordable and efficient price. We also provide Travel packages at an economical budget. Therefore, we believe that our customers should get complete satisfaction from our services. Booking with myfaresbuddy.com will become easier as our website has such simple operating features.</p>
+               <p>We also provide cheap travel tickets for both domestic and international flights with our site, travelling becomes easier; moreover, for the ease of our customers, you will find complete customer support from our customer support department.</p>
+               <a href="about-us.html">Read More</a>
+            </div>
+         </div>
+         <div class="col-md-5">
+            <div class="about_img">
+               <img src="images/about-img01.jpg" width="100%">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="flight_deals">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="flight_deals_hd">
+               <h2>Best <span>Flight Deals</span></h2>
+            </div>
+         </div>
+         <div class="col-md-6 deals_gp">
+            <div class="flight_deals_main">
+               <a href="#">
+                  <div class="flight_roots">
+                     <h4>Miami</h4>
+                     <span>(MIA)</span>
+                     <p>19-DEC-2023</p>
+                  </div>
+                  <div class="flight_img">
+                     <img src="images/airplane.png">
+                  </div>
+                  <div class="flight_roots">
+                     <h4>New York</h4>
+                     <span>(JFK)</span>
+                     <p>27-DEC-2023</p>
+                  </div>
+                  <div class="flight_prize">
+                     <p>Starting From</p>
+                     <h5>$352.55 </h5>
+                     <span>Book Now</span>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="col-md-6 deals_gp">
+            <div class="flight_deals_main">
+               <a href="#">
+                  <div class="flight_roots">
+                     <h4>Newark</h4>
+                     <span>(EWR)</span>
+                     <p>08-DEC-2023</p>
+                  </div>
+                  <div class="flight_img">
+                     <img src="images/airplane.png">
+                  </div>
+                  <div class="flight_roots">
+                     <h4>San Francisco</h4>
+                     <span>(SFO)</span>
+                     <p>16-DEC-2023</p>
+                  </div>
+                  <div class="flight_prize">
+                     <p>Starting From</p>
+                     <h5>$322.58 </h5>
+                     <span>Book Now</span>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="col-md-6 deals_gp">
+            <div class="flight_deals_main">
+               <a href="#">
+                  <div class="flight_roots">
+                     <h4>Dubai</h4>
+                     <span>(DXB)</span>
+                     <p>17-DEC-2023</p>
+                  </div>
+                  <div class="flight_img">
+                     <img src="images/airplane.png">
+                  </div>
+                  <div class="flight_roots">
+                     <h4>Orlando</h4>
+                     <span>(ORD)</span>
+                     <p>26-DEC-2023</p>
+                  </div>
+                  <div class="flight_prize">
+                     <p>Starting From</p>
+                     <h5>$288.45 </h5>
+                     <span>Book Now</span>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="col-md-6 deals_gp">
+            <div class="flight_deals_main">
+               <a href="#">
+                  <div class="flight_roots">
+                     <h4>Los Angeles</h4>
+                     <span>(LAX)</span>
+                     <p>15-DEC-2023</p>
+                  </div>
+                  <div class="flight_img">
+                     <img src="images/airplane.png">
+                  </div>
+                  <div class="flight_roots">
+                     <h4>New York</h4>
+                     <span>(JFK)</span>
+                     <p>22-DEC-2023</p>
+                  </div>
+                  <div class="flight_prize">
+                     <p>Starting From</p>
+                     <h5>$255.65 </h5>
+                     <span>Book Now</span>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="col-md-6 deals_gp">
+            <div class="flight_deals_main">
+               <a href="#">
+                  <div class="flight_roots">
+                     <h4>Paris</h4>
+                     <span>(PAR)</span>
+                     <p>04-DEC-2023</p>
+                  </div>
+                  <div class="flight_img">
+                     <img src="images/airplane.png">
+                  </div>
+                  <div class="flight_roots">
+                     <h4>Istanbul</h4>
+                     <span>(IST)</span>
+                     <p>12-DEC-2023</p>
+                  </div>
+                  <div class="flight_prize">
+                     <p>Starting From</p>
+                     <h5>$380.20 </h5>
+                     <span>Book Now</span>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="col-md-6 deals_gp">
+            <div class="flight_deals_main">
+               <a href="#">
+                  <div class="flight_roots">
+                     <h4>Miami</h4>
+                     <span>(MIA)</span>
+                     <p>24-DEC-2023</p>
+                  </div>
+                  <div class="flight_img">
+                     <img src="images/airplane.png">
+                  </div>
+                  <div class="flight_roots">
+                     <h4>London</h4>
+                     <span>(Lon)</span>
+                     <p>30-DEC-2023</p>
+                  </div>
+                  <div class="flight_prize">
+                     <p>Starting From</p>
+                     <h5>$420.30 </h5>
+                     <span>Book Now</span>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="flight_destinations">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="flight_destination_hd">
+               <h2>Top cities to visit in the <span>United States of America</span></h2>
+            </div>
+         </div>
+         <div class="col-md-3 des_gp">
+            <a href="#">
+               <div class="destination_deals_main">
+                  <img src="images/dallas.jpg" width="100%">
+                  <span class="deals_off">5% Off</span>
+                  <div class="flight_deals_captions">
+                     <h4>Dallas Flights</h4>
+                     <p> <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 des_gp">
+            <a href="#">
+               <div class="destination_deals_main">
+                  <img src="images/denver.jpg" width="100%">
+                  <span class="deals_off">4% Off</span>
+                  <div class="flight_deals_captions">
+                     <h4>Denver Flights</h4>
+                     <p> <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 des_gp">
+            <a href="#">
+               <div class="destination_deals_main">
+                  <img src="images/philipiness.jpg" width="100%">
+                  <span class="deals_off">6% Off</span>
+                  <div class="flight_deals_captions">
+                     <h4>Philippines Flights</h4>
+                     <p> <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 des_gp">
+            <a href="#">
+               <div class="destination_deals_main">
+                  <img src="images/boston.jpg" width="100%">
+                  <span class="deals_off">8% Off</span>
+                  <div class="flight_deals_captions">
+                     <h4>Boston Flights</h4>
+                     <p> <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+</div>
+
+ <div class="footer_main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-xnews">      
+                <h3 class="footer-heading">Newsletter Subscription - </h3>
+                <p class="watext">Our team of experienced travel agents are 24/7 at your service to help you.</p> 
+                <div id="msgdata"></div> 
+                
+                                <form method="post" action="send_mail.html" id="frm_subscribed_id">
+                    <div class="form-group">   
+                       <input type="text" class="input_froe" id="email_contact2" required="" placeholder="Enter Name" name="name">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="input_froe" id="email_contact1" required="" placeholder="Enter Email Id" name="email">
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" id="subscribeBtn" name="newletter_form" class="my_Subscribe">Subscribe</button>
+                    </div>
+                </form>
+                <span id="email_contact_err1" style="color: #bc0202;"></span>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="All_abouts">
+                    <h4>Quick Links -</h4>
+
+                    <ul>
+                        <li>
+                            <a href="index.html"> <i class="fa fa-caret-right"></i> Home </a>
+                        </li>
+                        <li>
+                            <a href="about-us.html"> <i class="fa fa-caret-right"></i> About Us</a>
+                        </li>
+                        <li>
+                            <a href="flight-deals.html"> <i class="fa fa-caret-right"></i> Flights Deals </a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html"> <i class="fa fa-caret-right"></i> Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="privacy-policy.html"> <i class="fa fa-caret-right"></i> Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="terms-conditions.html"> <i class="fa fa-caret-right"></i> Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="All_abouts">
+                    <h4>Major Airlines -</h4>
+                    <ul>
+                        <li>
+                            <a href="british-airways.html"> <i class="fa fa-map-marker"></i> British Airways </a>
+                        </li>
+                        <li>
+                            <a href="singapore-airlines.html"> <i class="fa fa-map-marker"></i> Singapore Airlines</a>
+                        </li>
+                        <li>
+                            <a href="emirates-airways.html"> <i class="fa fa-map-marker"></i> Emirates Airways </a>
+                        </li>
+                        <li>
+                            <a href="klm-airlines.html"> <i class="fa fa-map-marker"></i> KLM Airlines</a>
+                        </li>
+						<li>
+                            <a href="sitemap.html"> <i class="fa fa-caret-right"></i> Sitemap </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="All_abouts">
+                    <h4>Get in touch -</h4>
+
+                    <div class="dt-sc-contact-info">
+                        <h6><i class="fa fa-phone"></i> <a href="tel:+1-888-409-8077">+1-888-409-8077</a></h6>
+                    </div>
+                    <div class="dt-sc-contact-info">
+                        <h6><i class="fa fa-envelope" aria-hidden="true"> </i> <a href="https://myfaresbuddy.com/info@info@myfaresbuddy.com">info@myfaresbuddy.com</a></h6>
+                    </div>
+                    <div class="dt-sc-contact-info">
+                        <h6><i class="fa fa-map-marker" aria-hidden="true"> </i>  31 Foundry Rd Sharon, MA 02067, USA</h6>
+                        <!--<h6><i class="fa fa-map-marker" aria-hidden="true"> </i>  Fourth Floor, Unit No:-481, Aggarwal Millennium Tower-II, Netaji Subhash Place,Pitampura, Noth West Delhi 110034</h6>-->
+                    </div>
+                </div>
+
+                <div class="Social_media">
+                    <h4>Follow us -</h4>
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="disclamer">
+                    <p>The website may state that flight availability and prices are subject to change until the booking is confirmed and payment is processed. They might disclaim any liability for failed bookings due to changes in flight availability or other factors. Although myfaresbuddy has inversely attached so many hyperlinks to other websites, we are not sure about their content or what type of content they are franchising via our site. Therefore, myfaresbuddy is not responsible for any loss that occurs to your data while operating our website. For your safety, we advise you to read the terms and conditions of our website. The disclaimer might assure users that the website takes appropriate security measures to protect personal and payment information. However, they may disclaim liability for any data breaches or unauthorised access that may occur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer__logoBox">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="right-pay">
+                    <ul>
+                        <li><a href="javascript:void(0)" target="_blank"> <img src="images/download2.png" style="width: 128px;"> </a></li>
+                        <li><a href="javascript:void(0)"> <img src="images/icons-p7.png"> </a></li>
+                        <li><img src="images/icons-p7.png"></li>
+                        <li><img src="images/icons-p8.png"></li>
+                        <li><img src="images/icons-p9.png"></li>
+                        <li><img src="images/icons-p10.png"></li>
+                        <li><img src="images/icons-p11.png"></li>
+                        <li><img src="images/icons-p12.png"></li>
+                        <li><img src="images/icons-p13.png"></li>
+                        <li><img src="images/paypal.png"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="copy_right">
+                    <p>Copyright © 2023 myfaresbuddy.com (DOLLAR N' DEALS LLC) All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="font/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+   $(document).ready(function(){
+     $(".hide_con").click(function(){
+       $(".top_header_btm").hide(100);
+     });
+   });
+</script>
+
+</html>

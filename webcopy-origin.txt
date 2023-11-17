@@ -1,0 +1,388 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\jquery\3.6.0\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff
+Content Type: application/octet-stream
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/about-us.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\about-us.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/american-airlines-aa.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\american-airlines-aa.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/british-airways.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\british-airways.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/contact-us.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\contact-us.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/copa-airlines-cm.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\copa-airlines-cm.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/css/animate.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\css\animate.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/css/delta-page.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\css\delta-page.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/css/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/css/page-style.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\css\page-style.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/delta-airlines.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\delta-airlines.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/emirates-airways.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\emirates-airways.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/flight-deals.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\flight-deals.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/font/a076d05399.js
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\font\a076d05399.js
+Content Type: application/javascript
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Iberia-airlines-ib.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Iberia-airlines-ib.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/about-img01.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\about-img01.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/about-img02.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\about-img02.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/air-banner01.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\air-banner01.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/air-banner02.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\air-banner02.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/air-banner03.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\air-banner03.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/air-banner04.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\air-banner04.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/airplane.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\airplane.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/boston.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\boston.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/call-icons.gif.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\call-icons.gif.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/callus.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\callus.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/customer-support-girls.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\customer-support-girls.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/customer-support2.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\customer-support2.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/dallas.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\dallas.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/deals_banner.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\deals_banner.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/delta-airways-bgX.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\delta-airways-bgX.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/delta_flight.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\delta_flight.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/delta_logo.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\delta_logo.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/denver.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\denver.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/desk_r.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\desk_r.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/destiO.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\destiO.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/destiO2.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\destiO2.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/destiO3.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\destiO3.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/destiO4.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\destiO4.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/destiO5.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\destiO5.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/destiO6.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\destiO6.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/dl_p1.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\dl_p1.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/dl_p2.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\dl_p2.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/dl_p3.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\dl_p3.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/download2.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\download2.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/fabicons.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\fabicons.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/icons-p10.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\icons-p10.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/icons-p11.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\icons-p11.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/icons-p12.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\icons-p12.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/icons-p13.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\icons-p13.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/icons-p7.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\icons-p7.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/icons-p8.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\icons-p8.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/icons-p9.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\icons-p9.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/logo.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\logo.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/main-banner02.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\main-banner02.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/paypal.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\paypal.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/philipiness.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\philipiness.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/phone-calls.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\phone-calls.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/spanish_banner.jpg
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\spanish_banner.jpg
+Content Type: image/jpeg
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/why01.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\why01.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/why02.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\why02.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/images/why03.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\images\why03.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/index.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\index.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/klm-airlines.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\klm-airlines.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/KLM.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\KLM.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/privacy-policy.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\privacy-policy.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/css/delta-style.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\css\delta-style.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/css/jquery-ui.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\css\jquery-ui.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/css/style.css
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\css\style.css
+Content Type: text/css
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/images/left.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\images\left.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/images/right.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\images\right.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/images/search_icons.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\images\search_icons.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/images/search_icons_hov.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\images\search_icons_hov.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/images/swipe-icn.png
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\images\swipe-icn.png
+Content Type: image/png
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/js/jquery-ui.js
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\js\jquery-ui.js
+Content Type: application/javascript
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/Searchform/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\Searchform\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/singapore-airlines.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\singapore-airlines.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/sitemap.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\sitemap.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/terms-conditions.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\terms-conditions.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/united.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\united.html
+Content Type: text/html
+
+Uri: https://deltarline-hff3dcfahnbhhsbw.z01.azurefd.net/volaris-airlines-y4.html
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\volaris-airlines-y4.html
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5V1s.ttf
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\s\poppins\v20\pxiByp8kv8JHgFVrLBT5V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\s\poppins\v20\pxiByp8kv8JHgFVrLCz7V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4V1s.ttf
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\s\poppins\v20\pxiByp8kv8JHgFVrLDD4V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\s\poppins\v20\pxiByp8kv8JHgFVrLEj6V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\s\poppins\v20\pxiByp8kv8JHgFVrLGT9V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\s\poppins\v20\pxiEyp8kv8JHgFVrFJA.ttf
+Content Type: font/ttf
+
+Uri: https://plausible.io/js/script.js
+File Name: C:\Downloaded Web Sites\deltarline-hff3dcfahnbhhsbw.z01.azurefd.net\js\script.js
+Content Type: application/javascript
+

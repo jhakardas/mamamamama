@@ -1,0 +1,1211 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="#">
+      <meta name="author" content="#">
+      <title> myfaresbuddy | American Aerolíneas </title>
+      <link rel="shortcut icon" href="images/fabicons.png" type="image/x-icon">
+      <link href="css2?family=Poppins:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/page-style.css" rel="stylesheet">
+   </head>
+   
+     <style>#boxes{ display:none; font-family: 'Poppins', sans-serif;}
+
+ #mask { position: fixed !important; left: 0;top: 0; z-index: 9000 !important; background: rgba(0, 0, 0, 0.9); display: none; height: 100% !important; width: 100% !important;
+   z-index: 999; }
+   
+#boxes .window { display: none;left: 15%; position: fixed; top: 90px !important; z-index: 9999; width: 700px;}
+#boxes #dialog { background-color: #ffffff; border-radius: 0px;}
+#boxes #dialog a { text-decoration: none;}
+.text-success2 { color: #0b4075; font-size: 20px; text-transform: uppercase; font-weight: 600; border-bottom: solid 1px #ee372b; padding-bottom: 6px;}
+.home-page-popup {}
+.home-page-popup .form-horizontal .form-group { margin-left: 0; margin-right: 0; }
+.home-page-popup .close22 { display: block; height: 30px; margin: 0 auto; opacity: 1; overflow: hidden; position: absolute; right: 9px; text-indent: 0; top: 5px; width: 30px; }
+
+.flight { width: 100%; display: table; position: relative;}
+.flight img { position: absolute; top: 310px; width: 100%; height: 200px; }
+   
+.search-box_design { position: relative; height: 160px; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+.search-box {position: absolute; top: 0; left: 0; width: 100%; display: table;}
+.result-box { width: 45%; display: table; float: left; text-align: center; }
+.search-heading { text-align: center; font-size: 25px; padding: 0px 0; font-weight: bold; color: #454545; }
+.arrow img { width: 65px; float: left; margin-top: 20px; }
+.one_way { text-align: center; font-weight: bold; background: #e67817; display: table; margin: 0 auto; padding: 5px 5px; color: #fff;}
+.close22 img { height: 100%; position: relative; z-index: 9999999; }
+   
+
+</style>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --> 
+<style type="text/css">.popup-dsgn { width: 100%; display: table; }
+.popup-dsgn-box {
+    width: 100%;
+    display: table;
+    background: url(https://myfaresbuddy.com/img/country-footer.png) no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    position: relative;
+    border-radius: 2px;
+    height: 100%;
+    background: #fff;
+}
+
+.popup-dsgn-box .popup-dsgn { border-radius: 2px; }
+
+.content_set2{ margin-top:25px; display:table; width:100%;} 
+
+.content_bx { background: #ffffff; display:table; width:100%; background-size: cover; padding: 0 0 25px 0; box-shadow: 0 2px 6px 0 rgba(255,255,255,.4);}
+.content_bx a{ text-decoration: none;}
+.mymodal_body{padding: 0}
+.my_model_ctnt{border:5px solid #02416c;}
+.close22 i { position: absolute; right: 5px; top: 4px; cursor: pointer; font-size: 19px; border: solid 1px #003876; color: #003876;
+    height: 25px; width: 25px; text-align: center; line-height: 22px; border-radius: 30px; z-index: 9;}
+.mymodel_here{border-bottom: 0;padding: 0;}
+
+.pnd_ddl{ padding:10px 0 0; text-align:center;}
+.pnd_ddl img {
+    margin: 22px 0;
+    width: 135px;
+    border: solid 8px #ffeded;
+    border-radius: 80px;
+    height: 135px;
+}
+.pnd_ddl h4 {
+    font-size: 28px;
+    color: #003876;
+    margin: 0px 0 10px 0;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 46px;
+}
+.pnd_ddl h5 {
+    text-align: center;
+    display: table;
+    margin: 20px auto 10px;
+    padding: 10px 20px;
+    border: 2px solid #ff4600;
+    color: #ff4600;
+    border-radius: 12px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.nn_dst { text-align: center;}
+.nn_dst h3 { font-size: 40px; text-transform: capitalize; line-height: 40px; color: #003876; margin: 20px 0 22px 0; font-weight: 700; letter-spacing: 0;}
+.nn_dst h4 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #003876;
+    margin: 0 15px 30px 15px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.nn_dst h5 { font-size: 22px; letter-spacing: 0px; text-transform: uppercase; color: #333; margin: 0 0 20px 0; font-weight: 600;}
+.lakdi_pn {
+    overflow: hidden;
+    margin: 25px auto -9px auto;
+    text-align: center;
+    background: #fff;
+}
+.lakdi_pn img { width: 100%; height: 115px;}
+
+.exbt_cl{ text-align:center; margin: 15px 0 0 0;}
+.exbt_cl h6 {
+    font-size: 27px;
+    color: #ff4600;
+    margin: 30px 0 10px 0;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 800;
+}
+.exbt_cl h4 { font-size: 24px; color: #fff; margin: 0px 0 15px 0; padding: 12px 25px 12px 25px; display: inline-block;
+    letter-spacing: 2px; border-radius: 48px; background: #003876; font-weight: 600;}
+
+.fttr_ttl {
+    padding: 12px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    background: #fff;
+    z-index: 9;
+}	
+.fttr_ttl p {
+    font-size: 18px;
+    color: #003876;
+    margin: 0px 0 6px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.fttr_ttl h6 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff4600;
+    letter-spacing: 2px;
+}
+
+
+/** RESONSIVE CSS START **/
+
+@media (min-width:320px) and (max-width:479px) {
+#boxes .window{ display:block; width: 100%; left: 0 !important; top: 0px !important; height:100%;}	
+#boxes{ display:block;}
+}
+
+@media (min-width:360px) and (max-width:639px){
+#boxes .window{ display:block; width: 100%; left: 0 !important; top: 0px !important; height:100%;}	
+#boxes{ display:block;}
+}
+   
+</style> 
+<a href="tel:+1-888-409-8077" style="color:#fff;">
+<div id="boxes" class="col-sm-6 col-sm-offset-3">
+   <div class="home-page-popup">
+      <div style="display: none;" id="dialog" class="window">
+       <span href="tel:+1-888-409-8077" id="close_id" onclick="close_dilog(this.id)" class="close22">
+		 <i class="fa fa-close"></i> </span> 
+		 
+         <div class="popup-dsgn-box">  
+          <div class="content_bx">
+		   <div class="pnd_ddl">
+			 <img src="images/customer-support-girls.png">  
+            <h4> Reserva de aerolíneas </h4>
+            <h5>  <i class="fa fa-phone"></i> +1-888-409-8077 </h5>
+		   </div>
+            <div class="nn_dst">
+			  <div class="lakdi_pn">
+				 <h4> Reservas, Cambios, Cancelaciones y Consultas </h4>
+			</div> 
+			<img src="images/call-icons.gif.png" style="width: 85px;"> 
+			</div>
+			 <div class="exbt_cl">
+			  <h6> Haz clic para llamar ! </h6>
+			 </div>
+          </div>
+         </div>
+         <div class="fttr_ttl">
+		    <p>  Reservar vuelos   </p>
+		    <h6> <i class="fa fa-phone"></i> +1-888-409-8077 </h6>
+		 </div>
+      </div>
+      <div sty;e="opacity: 0.8;" id="mask">
+   </div>
+</div>
+</div>
+</a>
+ <script data-cfasync="false" src="https://myfaresbuddy.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript"> function close_dilog(id) {
+   document.getElementById(id).style.display="none";
+   document.getElementById("mask").style.display="none";
+   document.getElementById("dialog").style.display="none";
+   }
+   setTimeout(function() {
+   document.getElementById("dialog").style.display="block";
+   document.getElementById("mask").style.display="block";
+   var id='#dialog';
+   //Get the screen height and width
+   var maskHeight=$(document).height();
+   var maskWidth=$(window).width();
+   //Set heigth and width to mask to fill up the whole screen
+   $('#mask').css( {
+       'width': maskWidth, 'height': maskHeight
+   }
+   );
+   //transition effect		
+   $('#mask').fadeIn(1000);
+   $('#mask').fadeTo("slow", 0.8);
+   //Get the window height and width
+   var winH=$(window).height();
+   var winW=$(window).width();
+   //Set the popup window to center
+   $(id).css('top', winH/2-$(id).height()/2);
+   $(id).css('left', winW/2-$(id).width()/2);
+   //transition effect
+   $(id).fadeIn(2000);
+   //if close button is clicked
+   $('.window .close').click(function (e) {
+       //Cancel the link behavior
+       e.preventDefault();
+       $('#mask').hide();
+       $('.window').hide();
+   }
+   );
+   //if mask is clicked
+   $('#mask').click(function () {
+       $(this).hide();
+       $('.window').hide();
+   }
+   );
+   }
+   , 10);
+</script> 
+
+ <div class="main_header">
+   <nav class="navbar navbar-expand-sm">
+      <div class="container">
+         <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html"> Hogar </a>
+               </li>
+               <li class="nav_line"></li>
+               <li class="nav-item">
+                  <a class="nav-link" href="about-us.html"> Sobre nosotras </a>
+               </li>
+               <li class="nav_line"></li>
+               <li class="nav-item">
+                  <a class="nav-link" href="flight-deals.html"> Ofertas de vuelos </a>
+               </li>
+               <!--<li class="nav_line"></li>
+               <li class="nav-item">
+                  <a class="nav-link" href="privacy-policy.php"> política de privacidad </a>
+               </li> -->
+               <li class="nav_line"></li>
+               <li class="nav-item"> 
+                  <a class="nav-link" href="contact-us.html"> Contacta </a>
+               </li>
+            </ul>
+            <div class="header_toll">
+               <img src="images/phone-calls.png">
+               <p> Reserve en línea Llámenos </p>
+               <a href="tel:+1-888-409-8077"> +1-888-409-8077</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+</div>
+
+<div class="airlines_banner" style="background-image: url(images/spanish_banner.jpg); background-size:cover; background-repeat:no-repeat;">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="air_banner_captions">
+               <h1> American Aerolíneas </h1>
+            </div>
+            <div class="form_include">
+               <link rel="stylesheet" type="text/css" href="Searchform/css/style.css">
+<link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="col-md-12 fm_gp">
+   <div class="panel with-nav-tabs panel-default">
+      <div class="panel-heading">
+         <ul class="nav nav-tabs">
+            <li>
+               <a href="#tab1default" class="active" data-bs-toggle="tab"> <i class="fa fa-plane"></i> Reservas de vuelos </a>
+            </li>
+             <!-- <li>
+              <a href="#tab1default2" data-bs-toggle="tab"> <i class="fa fa-plane"></i> Hotel </a>
+           </li> -->           
+         </ul>
+      </div>
+      <div class="panel-body">
+         <div class="tab-content">
+            <div class="tab-pane in active" id="tab1default">
+               <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 frm_gap">
+                     <div class="form_bx">
+                        <form method="GET" action="flight/search.html" onsubmit="return first_form()">
+                           <input type="hidden" name="sid" value="20231113114851">
+                           <input type="hidden" name="t" value="1">
+                           <input type="hidden" name="meta" value="myfaresbuddy_us">
+                           <div class="row">
+                              <div class="col-md-12 head_gp">
+                                 <div class="flight_type">
+                                    <div class="form-check-inline">
+                                       <label class="radio-inline customradio" id="round_trip"> Ida y vuelta
+                                       <input type="radio" checked="checked" onclick="show_date(this.value)" value="roundtrip" name="tripType">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                       <label class="fly_line">|</label>
+                                       <label class="radio-inline customradio" id="one_way"> De una sola mano
+                                       <input type="radio" onclick="show_date(this.value)" value="oneway" name="tripType">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row fm_ln1">
+                              <div class="col-md-3 rsts col-xs-12 ffrms_ppd">
+                                 <div class="tion_sea"> Desde aeropuerto/ciudad </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fas fa-plane-departure"></i> <!-- <img src="Searchform/images/plane_fly.png"> --> 
+                                    </label>
+                                    <input type="text" required="required" class="form-control ipt1 location-fld serlocation" autocomplete="off" placeholder="ciudad o aeropuerto" name="origin" id="location">
+                                    
+                                 </div>
+                              </div>
+                              <div class="roud_icons"> <img src="Searchform/images/swipe-icn.png"> </div>
+                              <div class="col-md-3 col-xs-12 rsts ffrms_ppd">
+                                 <div class="tion_sea"> Al aeropuerto/ciudad </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fas fa-plane-arrival"></i> <!-- <img src="Searchform/images/plane_down.png"> -->  
+                                    </label>
+                                    <input required="required" type="text" class="form-control ipt1 location-fld serlocation" placeholder="ciudad o aeropuerto" name="destination" autocomplete="off" id="location2">
+                                    <div style="display: none;" onclick="close_btn(this.id);" id="location2_cleardata" class="closed_icon"> <i class="fa fa-remove"></i> </div>
+                                    
+                                 </div>
+                              </div>
+                              <div class="col-md-2  col-xs-6 ffrms_ppd">
+                                 <div class="tion_sea"> Partida </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fa fa-calendar"></i> <!-- <img src="Searchform/images/dateoick.png"> --> 
+                                    </label>
+                                    <input id="depDt" type="hidden" value=''>
+                                    <input type="text" class="form-control ipt1 readtrue" id="datepicker" required="required" autocomplete="off" placeholder="Fecha de salida" name="departureDate" readonly="true" value="">
+                                 </div>
+                              </div>
+                              <style>.readtrue {
+    cursor: pointer !important;
+    background-color: #fff1f600 !important;
+    opacity: 1;
+}
+                                 .form-control[disabled], fieldset[disabled]{  background-color:#f8f3e7 !important; } .form-control
+                              </style>
+                              <div class="col-md-2 col-xs-6 ffrms_ppd">
+                                 <div class="tion_sea"> Devolver </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fa fa-calendar"></i><!-- <img src="Searchform/images/dateoick.png"> --> 
+                                    </label>
+                                    <input id="retDt" type="hidden" value=''>
+                                    <input type="text" autocomplete="off" class="form-control ipt1 readtrue" required="required" id="datepicker2" placeholder="Fecha de regreso" readonly="true" value="" name="returnDate">                             
+                                 </div>
+                              </div>
+                              <div class="col-md-2 col-sm-6 col-xs-12 ffrms_ppd">
+                                 <div class="tion_sea"> Clase y viajeros </div>
+                                 <div class="form-group">
+                                    <label class="frm_llbs">
+                                       <i class="fa fa-male"></i><!-- <img src="Searchform/images/passenger_iim.png"> --> 
+                                    </label>
+                                    <input type="text" class="form-control ipt1" placeholder="Pasajeras 1" name="" autocomplete="off" id="btm_clk">
+                                    <div class="psg_dls" style="display: none;">
+                                       <div class="col-xs-12 gapres_dd">
+                                          <div class="form-group">
+                                             <label class="frm_llbs2">
+                                                <i class="fa fa-male"></i><!-- <img src="Searchform/images/passenger_iim.png"> --> 
+                                             </label>
+                                             <select class="form-control ipt1" name="classType" placeholder="Economía">
+                                                <option selected="selected" value="Y">Economía</option>
+                                                <option value="S"> Economia Premium </option>
+                                                <option value="C"> Clase de negocios </option>
+                                                <option value="F"> Primera clase </option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-sm-12 gapres_dd">
+                                          
+                                             <div class="pass_bx">
+                                                <label>Adultas <small>(+11 años)</small></label>
+                                                <div class="input-group number-spinner">
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn mns_btn" data-dir="dwn" onclick="decrease_adult_rt()"><span class="fa fa-minus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                      <div class="col-md-6 col-6 inpt_gp">
+                                                         <input type="text" id="AdultsRT" class="form-control text-center add_num" name="adt" value="1">
+                                                      </div>
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn add_btn" data-dir="up" onclick="increase_adult_rt()"><span class="fa fa-plus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                       </div>
+                                       <div class="col-sm-12 gapres_dd">
+                                             <div class="pass_bx">
+                                                <label>Niña <small>(2-11 años)</small></label>
+                                                <div class="input-group number-spinner">
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn mns_btn" data-dir="dwn" onclick="decrease_child_rt()"><span class="fa fa-minus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                      <div class="col-md-6 col-6 inpt_gp">
+                                                         <input type="text" id="ChildrenRT" class="form-control text-center add_num" name="chd" value="0">
+                                                      </div>
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn add_btn" data-dir="up" onclick="increase_child_rt()"><span class="fa fa-plus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                </div>
+                                             </div>
+                                       </div>
+                                       <div class="col-sm-12 gapres_dd">
+                                             <div class="pass_bx">
+                                                <label> Niña <small>(Hasta 2 años)  </small>
+                                                </label> 
+                                                
+                                                <div class="input-group number-spinner">
+                                                   
+                                                      <div class="col-md-3  col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn mns_btn" data-dir="dwn" onclick="decrease_infant_rt()"><span class="fa fa-minus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                      <div class="col-md-6 col-6 inpt_gp">
+                                                         <input type="text" class="form-control text-center add_num" id="InfantsRT" name="inf" value="0">
+                                                      </div>
+                                                      <div class="col-md-3 col-3 inpt_gp">
+                                                         <span class="input-group-btn">
+                                                         <a class="btn add_btn" data-dir="up" onclick="increase_infant_rt()"><span class="fa fa-plus"></span></a>
+                                                         </span>
+                                                      </div>
+                                                   
+                                                </div>
+                                             </div>
+                                          
+                                       </div>
+                                       <div class="col-sm-12 col-xs-12 gapres_dd">
+                                          <!-- <div class="row"> -->
+                                          <div class="btn_dn">
+                                             <button type="button" onclick="all_pesenger();" class="btn_done">Hecho</button>
+                                          </div>
+                                          <!-- </div> -->
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              <div class="col-md-1 col-xs-12 solotab ffrms_ppd">
+                                 <button type="sumit" name="submitForm"> Buscar </button>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+           
+
+         </div>
+      </div>
+   </div>
+</div>
+<link rel="stylesheet" href="Searchform/css/jquery-ui.css">
+<script src="Searchform/js/jquery.min.js"></script>
+<!-- <script src="Searchform/js/bootstrap.min.js"></script> -->
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+<script src="Searchform/js/jquery-ui.js"></script>
+<!--<script src="js/airports.js"></script>-->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<script>
+   $(document).ready(function() { 
+   $("#myModal").modal("show"); 
+   
+   $("#myBtn").click(function() { 
+   $("#myModal").modal("hide"); 
+   }); 
+   }); 
+</script>
+<script type="text/javascript">
+   function picture(){ 
+   var pic = "search.gif"
+   document.getElementById('bigpic').style.display='block';
+   document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+   }
+</script>
+<script>
+   $(document).ready(function(){
+     $("#one_way").click(function(){
+       $("#datepicker2").prop('disabled', true);
+     });
+     $("#round_trip").click(function(){
+       $("#datepicker2").prop('disabled', false);
+     });
+   });
+</script>
+<script>
+   function addDays(date, days) {
+     var result = new Date(date);
+     result.setDate(result.getDate() + days);
+     return result;
+   }
+   
+   function formatDate(date)
+   {
+   var d = new Date(date);
+   var curr_date = d.getDate();
+   var curr_month = d.getMonth() + 1; //Months are zero based
+   var curr_year = d.getFullYear();
+   return curr_date + "-" + curr_month + "-" + curr_year;   
+   }
+   
+       jQuery(function($) {
+        $("#datepicker").datepicker({
+            minDate: 'D',
+            dateFormat: "dd-mm-yy",
+            // defaultDate: "+1w",
+            numberOfMonths: Resolution(),
+            onClose: function(selectedDate) {
+                var s = selectedDate.split('-');
+                
+                $("#datepicker2").datepicker("option", "minDate", selectedDate);
+                $("#datepicker2").select();
+                return false;
+            }
+        });
+    });
+
+    jQuery(function($) {
+         $("#datepicker2").datepicker({
+            minDate: '+1D',
+            dateFormat: "dd-mm-yy",
+            // defaultDate: "+1w",
+            numberOfMonths: Resolution(),
+            onClose: function(selectedDate) {
+                var s = selectedDate.split('-');
+                $('#datepicker2').val(d_dat);
+                $('#datepicker2_label').html(s[1] + '-' + s[3]);
+                return false;
+            }
+        });
+    });
+</script>
+<script>
+   jQuery(function($) {
+     $("#datepickerH").datepicker({
+         minDate: 'D',
+         dateFormat: "dd-m-yy",
+         // defaultDate: "+1w",
+         numberOfMonths: Resolution(),
+         onClose: function(selectedDate) {
+             $('#depdth').val(selectedDate);
+             $('#datepickerH').val(selectedDate);
+             $("#datepickerH2").datepicker("option", "minDate", selectedDate);
+             $("#datepickerH2").select();
+             return false;
+         }
+     });
+   });
+   
+   
+   
+   jQuery(function($) {
+     $("#datepickerH11").datepicker({
+         minDate: 'D',
+         dateFormat: "M-D-dd-yy",
+         // defaultDate: "+1w",
+         numberOfMonths: Resolution(),
+         onClose: function(selectedDate) {
+             alert(selectedDate);
+             var s = selectedDate.split('-');
+             var depdate = s[0] + '-' + s[2] + '-' + s[3];
+             $('#depdth').val(depdate);
+             var d_dat = s[0] + '-' + s[2];
+             $('#datepickerH').val(d_dat);
+             $('#datepicker_label').html(s[1] + '-' + s[3]);
+             $("#datepickerH2").datepicker("option", "minDate", selectedDate);
+             $("#datepickerH2").select();
+             return false;
+         }
+     });
+   });
+   
+   jQuery(function($) {
+     $("#datepickerH2").datepicker({
+         minDate: '+1D',
+         dateFormat: "dd-m-yy",
+         // defaultDate: "+1w",
+         numberOfMonths: Resolution(),
+         onClose: function(selectedDate) {
+             
+             $('#retdth').val(selectedDate);
+            
+             $('#datepickerH2').val(selectedDate);
+             return false;
+         }
+     });
+   });
+</script>
+<script>
+   jQuery(function($) {
+       $("#datepicker_car").datepicker({
+           minDate: 'D',
+           dateFormat: "M-D-dd-yy",
+           // defaultDate: "+1w",
+           numberOfMonths: Resolution(),
+           onClose: function(selectedDate) {
+               var s = selectedDate.split('-');
+               var depdate = s[0] + '-' + s[2] + '-' + s[3];
+               $('#depDt').val(depdate);
+               var d_dat = s[0] + '-' + s[2];
+               $('#datepicker_car').val(d_dat);
+               $('#datepicker_label').html(s[1] + '-' + s[3]);
+               $("#datepicker_car2").datepicker("option", "minDate", selectedDate);
+               $("#datepicker_car2").select();
+               return false;
+           }
+       });
+   });
+   
+   jQuery(function($) {
+       $("#datepicker_car2").datepicker({
+           minDate: '+1D',
+           dateFormat: "M-D-dd-yy",
+           // defaultDate: "+1w",
+           numberOfMonths: Resolution(),
+           onClose: function(selectedDate) {
+               var s = selectedDate.split('-');
+               var depdate = s[0] + '-' + s[2] + '-' + s[3];
+               $('#retDt').val(depdate);
+               var d_dat = s[0] + '-' + s[2];
+               $('#datepicker_car2').val(d_dat);
+               $('#datepickerH2_label').html(s[1] + '-' + s[3]);
+               return false;
+           }
+       });
+   });
+</script>
+<script>
+   function first_form()
+    {
+    var a=document.getElementById("location").value;    
+    var b=document.getElementById("location2").value;   
+    
+    document.getElementById("location").value=a.substring(0,3); 
+    document.getElementById("location2").value=b.substring(0,3);    
+    
+    
+    
+    }
+</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+       $("#btm_clk").click(function() {
+           $(".psg_dls").toggle(1000);
+       });
+       $(".btn_done").click(function() {
+   
+           var total = all_pesenger();
+           $("#btm_clk").val('Passengers ' + total);
+           $(".psg_dls").hide(1000);
+       });
+   });
+</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+       $("#btm_clkH").click(function() {
+           $(".psg_dls").toggle(1000);
+       });
+       $(".btn_doneH").click(function() {
+   
+           var total = all_pesenger();
+           $("#btm_clkH").val('Adults/child ' + total);
+           $(".psg_dls").hide(1000);
+       });
+   });
+</script>
+<script type="text/javascript">
+   function show_date(data) {
+   
+       if (data == 'oneway') {
+           document.getElementById("datepicker2").disabled = true;
+           var a = document.getElementById("datepicker2");
+     document.getElementById("retDt").value="";
+   document.getElementById("datepicker2").value="";
+           a.removeAttribute("required");
+       } else if (data == 'roundtrip') {
+           document.getElementById("datepicker2").disabled = false;
+           var b = document.getElementById("datepicker2");
+           b.setAttribute("required", true);
+       }
+   
+   }
+</script>
+<script>
+   jQuery(function($) {
+   
+       $('input').focus(function() {
+           $(this).removeAttr('placeholder');
+       });
+   
+   });
+   
+</script>
+<script>
+   jQuery(function($) {   
+   //alert("hiiii");
+   var arr = [];
+   $.getJSON('airport.json', function(data) {
+   $.each(data, function(key, value) {
+   //alert(value);
+   var codes = value.substring(0,3);
+   //alert(codes);
+    if ($.inArray(value, arr) === -1) {
+        arr.push(value);
+    }
+   })
+   });
+   //console.log(arr);
+   $("#location").autocomplete({
+   source: function( request, response ) {
+   var stringLength = $.ui.autocomplete.escapeRegex( request.term ).length;
+   //alert(stringLength);
+           var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+   var matcher2 = new RegExp( $.ui.autocomplete.escapeRegex( request.term )+"+", "i" );
+   
+   //alert(matcher);
+   var isData = 1;
+         response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   if(stringLength<=3)
+   {
+   if(matcher.test( item ))
+   {
+    isData = 22;
+   }
+                   return matcher.test( item );
+   
+   }
+   else
+   {
+   if(matcher2.test( item ))
+   {
+   isData = 22;
+   }
+   return matcher2.test( item ); 
+   }
+   
+         }) );
+   //alert(isData);
+   if(stringLength==3 && isData == 1 )
+   {
+   response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   
+                   return matcher2.test( item );
+   
+   
+   
+         }) );
+   }
+   },
+   minLength: 1,
+   });
+   
+   $("#location2").autocomplete({
+        source: function( request, response ) {
+   var stringLength = $.ui.autocomplete.escapeRegex( request.term ).length;
+   //alert(stringLength);
+           var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+   var matcher2 = new RegExp( $.ui.autocomplete.escapeRegex( request.term )+"+", "i" );
+   var isData = 1;
+         response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   if(stringLength<=3)
+   {
+   if(matcher.test( item ))
+   {
+    isData = 22;
+   }
+                   return matcher.test( item );
+   
+   }
+   else
+   {
+   if(matcher2.test( item ))
+   {
+   isData = 22;
+   }
+   return matcher2.test( item ); 
+   }
+   
+         }) );
+   //alert(isData);
+   if(stringLength==3 && isData == 1 )
+   {
+   response( $.grep( arr, function( item ){
+   //alert(item);
+   //alert(matcher.test( item ));
+   
+   
+                   return matcher2.test( item );
+   
+   
+   
+         }) );
+   }
+   },
+   minLength: 1,
+   });
+   });
+</script>
+<script>
+   function close_btn(id) {
+       var array = id.split("_");
+       var content = array[0];
+       document.getElementById(content).value = '';
+       document.getElementById(id).style.display = 'none';
+       var label_id = content + '_label';
+       if (content == 'location') {
+           $('#' + label_id).html('City Name');
+           $("#location").attr("placeholder", "Airport");
+   
+       } else if (content == 'location2') {
+           $('#' + label_id).html('City Name');
+           $("#location2").attr("placeholder", "Airport");
+   
+       }
+   
+   }
+</script>
+<script>
+   function add_rt_passenger() {
+       var infow = $("#InfantsRT").val();
+       var childow = $("#ChildrenRT").val();
+       var adultow = $("#AdultsRT").val();
+       var total = +infow + +childow + +adultow;
+       return total;
+   }
+   
+   function all_pesenger() {
+   
+       var infow = $("#InfantsRT").val();
+       var childow = $("#ChildrenRT").val();
+       var adultow = $("#AdultsRT").val();
+       var total = +infow + +childow + +adultow;
+       return total;
+   }
+   
+   function increase_adult_rt() {
+       var adult_pass = add_rt_passenger();
+       var adult_rt = document.getElementById("AdultsRT").value;
+       if (adult_pass < 9) {
+           var k = parseInt(adult_rt) + 1;
+           document.getElementById("AdultsRT").value = k;
+       }
+   
+   }
+   
+   function decrease_adult_rt() {
+       var adult_rt = document.getElementById("AdultsRT").value;
+       var InfantsRT = document.getElementById("InfantsRT").value;
+       if (adult_rt != '1') {
+           var k = parseInt(adult_rt) - 1;
+           document.getElementById("AdultsRT").value = k;
+   
+           if (InfantsRT >= adult_rt) {
+               var k = parseInt(InfantsRT) - 1;
+               document.getElementById("InfantsRT").value = k;
+           }
+   
+       }
+   }
+   
+   function increase_child_rt() {
+       var adult_pass = add_rt_passenger();
+       var adult_rt = document.getElementById("ChildrenRT").value;
+       if (adult_pass < 9) {
+   
+           var k = parseInt(adult_rt) + 1;
+           document.getElementById("ChildrenRT").value = k;
+       }
+   
+   }
+   
+   function decrease_child_rt() {
+       var adult_rt = document.getElementById("ChildrenRT").value;
+       if (adult_rt != '0') {
+           var k = parseInt(adult_rt) - 1;
+           document.getElementById("ChildrenRT").value = k;
+       }
+   }
+   
+   function increase_infant_rt() {
+   
+       var total_pass = add_rt_passenger();
+   
+       var adult_rt = document.getElementById("AdultsRT").value;
+       var InfantsRT = document.getElementById("InfantsRT").value;
+   
+       if (total_pass < 9 && InfantsRT < adult_rt) {
+           var k = parseInt(InfantsRT) + 1;
+           document.getElementById("InfantsRT").value = k;
+       }
+   
+   }
+   
+   function decrease_infant_rt() {
+       var adult_rt = document.getElementById("InfantsRT").value;
+       if (adult_rt != '0') {
+           var k = parseInt(adult_rt) - 1;
+           document.getElementById("InfantsRT").value = k;
+       }
+   }
+   
+   function Resolution() {
+       if (window.innerWidth < 780) {
+           return 1;
+       } else {
+           return 2;
+       }
+   }
+</script>            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="why_coah">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+       <div class="trips_hhgef">
+       <h3> Por qué elegirnos <span> myfaresbuddy </span> </h3>
+      </div>
+      </div>
+      
+      <div class="col-md-12">
+       <div class="row">
+             <div class="col-md-4">
+       <div class="Usps_usp__kLWpK">
+       <img src="images/why01.png">
+      <h4> BUSCAR Y GUARDA </h4>
+      <p> Al consultar tarifas con cientos de aerolíneas a la vez, ahorrarás mucho dinero. </p>
+      </div>
+      </div>
+             <div class="col-md-4">
+       <div class="Usps_usp__kLWpK">
+       <img src="images/why02.png">
+      <h4> RESERVA FÁCIL </h4>
+      <p> Nuestro motor de búsqueda es la forma más rápida y económica de programar su próximo vuelo. </p>
+      </div>
+      </div>
+             <div class="col-md-4">
+       <div class="Usps_usp__kLWpK">
+       <img src="images/why03.png">
+      <h4> SOPORTE 24/7 </h4>
+      <p> Obtenga asistencia las 24 horas del día, los 7 días de la semana para cualquier tipo de consulta relacionada con viajes. Estamos felices de poder ayudarte. </p>
+      </div>
+      </div>
+      </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+
+
+<div class="air_pg_main">
+  <div class="container">
+    <div class="row air_rowing">
+      <div class="col-md-12">
+          <div class="air_cont">
+              <h2> American Airlines: Descubre una Experiencia de Viaje Completa </h2>
+
+               <p> Bienvenido a American Airlines, donde tu experiencia de viaje se eleva a nuevos niveles de comodidad y servicio. Aquí encontrarás todo lo que necesitas saber sobre nuestra política de equipaje, clases de cabina, proceso de check-in y nuestro programa de viajero frecuente. Prepárate para descubrir un mundo de posibilidades y recompensas con American Airlines. </p>
+			   
+			   <h3> Política de Equipaje: Viaja Ligero, Viaja Bien </h3>
+
+                <p> En American Airlines, entendemos la importancia de llevar tus pertenencias contigo. Nuestra política de equipaje te ofrece flexibilidad para empacar de acuerdo a tus necesidades. Puedes llevar una maleta de mano y un artículo personal en cabina. Sigue las restricciones de tamaño y peso para un proceso de check-in sin complicaciones. </p> 
+				
+			  <h4> Clases de Cabina: Donde la Comodidad Encuentra la Elegancia </h4>
+
+              <p> Experimenta un viaje de lujo y confort con nuestras diversas clases de cabina. Ya sea que elijas Clase Premium o Economía, disfrutarás de amenidades que redefinen tu experiencia de viaje. Desde asientos espaciosos hasta sistemas de entretenimiento de vanguardia y un servicio atento, cada momento de tu viaje con American Airlines es diseñado para ser inolvidable. </p>
+
+              <h4> Check-In: Simple y Sin Estrés </h4>
+
+              <p> En American Airlines, tu conveniencia es una prioridad desde el principio. Nuestro proceso de check-in simplificado garantiza que pases menos tiempo en el aeropuerto y más tiempo disfrutando tu destino. Ya sea en línea, en quioscos de autoservicio o en el mostrador, empezar tu viaje es más fácil que nunca. </p>
+
+              <h4> Programa de Viajero Frecuente: Eleva Tus Viajes </h4>
+
+              <p> Bienvenido al Programa de Viajero Frecuente de American Airlines. Diseñado para viajeros leales como tú, este programa te recompensa con beneficios exclusivos, desde abordaje prioritario hasta mejoras de categoría. Con cada milla acumulada, no solo estás volando, estás desbloqueando un mundo de posibilidades. </p>
+			   
+			  <h4> Desbloqueando Recompensas: Tu Viaje con el Programa de Viajero Frecuente </h4>
+			   
+			  <p> Acumula millas en cada vuelo con American Airlines y observa cómo se suman tus recompensas. Ya sea que seas un viajero de negocios frecuente o un explorador apasionado, tu lealtad es celebrada. Canjea tus millas por vuelos con descuento, mejoras en la cabina y hasta recompensas con nuestros socios. Tu viaje no termina cuando llegas a tu destino, sino que se enriquece. </p>
+			   
+			  <h4> Aprovechando al Máximo Cada Milla: Beneficios del Programa de Viajero Frecuente </h4>
+			   
+			  <p> El Programa de Viajero Frecuente no se trata solo de acumular millas, sino de disfrutar de privilegios exclusivos. Abordaje prioritario, atención al cliente dedicada y acceso a salas de espera exclusivas son solo el comienzo. Tu lealtad a American Airlines se recompensa con un mundo de beneficios. </p>
+			   
+			  <h4> Descubre los Cielos con American Airlines </h4>
+			  <p> En conclusión, American Airlines no es solo una aerolínea: es una puerta a aventuras inolvidables. Con un enfoque en los pasajeros, diversas clases de cabina y un gratificante Programa de Viajero Frecuente, tu viaje con American Airlines está destinado a ser excepcional. Así que prepara tus maletas, acumula millas y prepárate para explorar el mundo de la manera más increíble posible. </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+ <div class="footer_main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-xnews">      
+                <h3 class="footer-heading"> Boletín de suscripción - </h3>
+                <p class="watext"> Nuestro equipo de agentes de viajes experimentados está a su servicio las 24 horas del día, los 7 días de la semana para ayudarle..</p> 
+                <div id="msgdata"></div> 
+                
+                                <form method="post" action="send_mail.html" id="frm_subscribed_id">
+                    <div class="form-group">   
+                       <input type="text" class="input_froe" id="email_contact2" required="" placeholder="Ingrese su nombre" name="name">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="input_froe" id="email_contact1" required="" placeholder="Ingrese la identificación de correo electrónico" name="email">
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" id="subscribeBtn" name="newletter_form" class="my_Subscribe">Suscribir</button>
+                    </div>
+                </form>
+                <span id="email_contact_err1" style="color: #bc0202;"></span>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="All_abouts">
+                    <h4>enlaces rápidos -</h4>
+
+                    <ul>
+                        <li>
+                            <a href="index.html"> <i class="fa fa-caret-right"></i> Hogar </a>
+                        </li>
+                        <li>
+                            <a href="about-us.html"> <i class="fa fa-caret-right"></i> Sobre nosotras </a>
+                        </li>
+                        <li>
+                            <a href="flight-deals.html"> <i class="fa fa-caret-right"></i> Ofertas de vuelos </a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html"> <i class="fa fa-caret-right"></i> Contacta con nosotras </a>
+                        </li>
+                        <li>
+                            <a href="privacy-policy.html"> <i class="fa fa-caret-right"></i> política de privacidad </a>
+                        </li>
+                        <li>
+                            <a href="terms-conditions.html"> <i class="fa fa-caret-right"></i> Términos y condiciones Condiciones </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="All_abouts">
+                    <h4> Principales aerolíneas -</h4>
+                    <ul>
+                        <li>
+                            <a href="british-airways.html"> <i class="fa fa-map-marker"></i> British aerolíneas </a>
+                        </li>
+                        <li>
+                            <a href="singapore-airlines.html"> <i class="fa fa-map-marker"></i> Singapore aerolíneas</a>
+                        </li>
+                        <li>
+                            <a href="emirates-airways.html"> <i class="fa fa-map-marker"></i> Emirates aerolíneas </a>
+                        </li>
+                        <li>
+                            <a href="klm-airlines.html"> <i class="fa fa-map-marker"></i> KLM aerolíneas</a>
+                        </li>
+						<li> <a href="sitemap.html"> <i class="fa fa-caret-right"></i> Mapa del sitio </a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="All_abouts">
+                    <h4> Ponerse en contacto -</h4>
+
+                    <div class="dt-sc-contact-info">
+                        <h6><i class="fa fa-phone"></i> <a href="tel:+1-888-409-8077">+1-888-409-8077</a></h6>
+                    </div>
+                    <div class="dt-sc-contact-info">
+                        <h6><i class="fa fa-envelope" aria-hidden="true"> </i> <a href="https://myfaresbuddy.com/info@info@myfaresbuddy.com">info@myfaresbuddy.com</a></h6>
+                    </div>
+                    <div class="dt-sc-contact-info">
+                        <h6><i class="fa fa-map-marker" aria-hidden="true"> </i>  31 Foundry Rd Sharon, MA 02067, USA</h6>
+                        <!--<h6><i class="fa fa-map-marker" aria-hidden="true"> </i>  Fourth Floor, Unit No:-481, Aggarwal Millennium Tower-II, Netaji Subhash Place,Pitampura, Noth West Delhi 110034</h6>-->
+                    </div>
+                </div>
+
+                <div class="Social_media">
+                    <h4> Síganos -</h4>
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="disclamer">
+                    <p> El sitio web puede indicar que la disponibilidad y los precios de los vuelos están sujetos a cambios hasta que se confirme la reserva y se procese el pago. Es posible que rechacen cualquier responsabilidad por reservas fallidas debido a cambios en la disponibilidad de vuelos u otros factores. Aunque myfaresbuddy ha adjuntado tantos hipervínculos a otros sitios web, no estamos seguros de su contenido o de qué tipo de contenido están franquiciando a través de nuestro sitio. Por lo tanto, myfaresbuddy no es responsable de ninguna pérdida que ocurra con sus datos mientras opera nuestro sitio web. Para su seguridad, le recomendamos leer los términos y condiciones de nuestro sitio web. La exención de responsabilidad puede garantizar a los usuarios que el sitio web toma las medidas de seguridad adecuadas para proteger la información personal y de pago. Sin embargo, podrán eximirse de responsabilidad por cualquier filtración de datos o acceso no autorizado que pueda producirse.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer__logoBox">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="right-pay">
+                    <ul>
+                        <li><a href="javascript:void(0)" target="_blank"> <img src="images/download2.png" style="width: 128px;"> </a></li>
+                        <li><a href="javascript:void(0)"> <img src="images/icons-p7.png"> </a></li>
+                        <li><img src="images/icons-p7.png"></li>
+                        <li><img src="images/icons-p8.png"></li>
+                        <li><img src="images/icons-p9.png"></li>
+                        <li><img src="images/icons-p10.png"></li>
+                        <li><img src="images/icons-p11.png"></li>
+                        <li><img src="images/icons-p12.png"></li>
+                        <li><img src="images/icons-p13.png"></li>
+                        <li><img src="images/paypal.png"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="copy_right">
+                    <p> Copyright © 2023 myfaresbuddy.com (DOLLAR N' OFERTAS LLC) Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="font/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+   $(document).ready(function(){
+     $(".hide_con").click(function(){
+       $(".top_header_btm").hide(100);
+     });
+   });
+</script>
+
+</html>

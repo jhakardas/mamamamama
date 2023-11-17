@@ -1,0 +1,282 @@
+/*Landing page css*/
+.lp-header {padding: 20px 0;}
+.tfncall span {
+    font-size: 16px;
+    color: #607D8B;
+    position: relative;
+    top: -2px;
+}
+.tfncall {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    color: #28abe3;
+}
+.form-secX {
+    background: #607D8B;
+}
+.key-points li{font-size:24px;list-style:none;}
+.key-points li span {font-size: 20px;color: #FFEB3B;font-weight: 600;}	
+.key-points li:before {
+    content: "\f058";
+    font-size: 22px;
+    font-family: fontawesome;
+    margin-right: 9px;
+    color: #e1ff22;
+    position: relative;
+    top: -1px;
+}
+.key-points {
+    column-count: 2;
+    line-height: 62px;
+}
+.tfncall.c2 span {
+    font-size: 22px;
+    position: relative;
+    top: -5px;
+}
+.tfncall.c2 {
+    font-size: 34px;
+    background: #fff;
+    border:0 !important;
+    padding: 8px 16px;
+    border-radius:8px;
+}
+.banner-section, .banner-sec {
+    position: relative;    color: #fff;
+}
+.banner-sec:before {
+    content: "";
+    background:rgb(47 62 146 / 66%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner-section .container, .banner-sec .container{position:relative;}
+.banner-section:before {
+    content: "";
+    background:rgb(47 62 146 / 66%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+   right: 48%;;
+}
+.wth{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+
+
+
+
+.stripsec {
+    font-size: 27px;
+    padding: 25px 16px;
+    text-align: center;
+    background: #3F51B5;
+    color: #fff;
+}
+.bes-sec img {
+    margin-right: 16px;
+    width: 60px;
+    height: 60px;
+     background: #e51937;
+    border-radius: 50%;
+    padding: 8px;
+}
+.stripsec strong {
+    color: #ddd;
+}
+.stripsec strong b {
+    color: #fff;
+}
+
+.banner-section {
+    background: #3F51B5;
+    color: #fff;
+    padding: 60px 0;
+}
+.qservice ul{padding:0;}
+.qservice li {padding: 8px;float: left;border-radius: 8px;margin: 16px;max-width: 27%;width:27%;}
+.es-airlines ul li a {text-decoration: none;font-size: 18px;color: #607D8B;}
+.es-airlines ul {column-count: 5;}
+.b_name{color:#fff;}
+
+.tfn-bottom-section{display:block !important;}
+body{margin-bottom:45.5px} a {color:#343a40;}
+.modal {top: 0 !important;}
+.rmpc {background: #bd98ff;padding: 15px;}
+
+/*theme color
+.theme{color:#11172b}
+.airline-theme {}
+*/
+.right-side-card {border-radius: 8px;position:relative; z-index:1;overflow:hidden;border: 1px solid #ddd;background:#f7f7f7 url(https://myfaresbuddy.com/frontend/images/travel-agents.png) no-repeat left center; background-size:cover;}
+.right-side-card b {font-size:20px;color:#fdb341;}
+.card-option li {list-style: none;padding-right:4px;}
+.card-option li img {height: 30px;border: 1px solid #ddd;border-radius: 4px;}
+
+.footer-section3.bgc.py-3 {
+    background: #11172b;
+}
+.bgc:before{background:#11172b;}
+.bgc ul li a,.bgc ul li, .bgc, .footer-section3 h4, .ss-sec span b, .ss-sec a,.ss-sec h5,.bgc h6{color:#fff;}
+.bottom-md-footer {background: #11172b;color: #fff;}
+.card-option li img{background:#fff;}
+h4.m-0 {display: none;}
+.navbar-light .navbar-brand, .call-right a, .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#header-wrapper{border-bottom: 1px solid rgb(255 255 255 / 15%);}
+#header-wrapper, .header-section{background:#11172b;border-bottom: 1px solid rgb(255 255 255 / 15%);}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:#fff;
+}
+
+.search-box1 .lowerform label{display:none;}
+
+
+.banner-sec:before {background:rgb(0 0 0 / 64%);}
+.tfncall.c2 {color: #fff;background: #e51937;}
+.tfncall.c2 span, .key-points li:before{color:#fff;}
+.key-points li span {color: #e51937;}
+.stripsec {background: #11172b;}
+.call-right:after{display:none;}
+.call-right i {
+    background: #e51937;
+    width: 35px;
+    height: 35px;
+    border-radius: 21px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 2px 0 0;
+}
+span.call-right a {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-decoration: none;
+}
+
+/*Popup Customize*/
+.service-list button {background:#e51937;}
+.lp-modal {color: #11172b;}
+.lp-modal-main .modal-footer {background: #114071;}
+
+.delta_cont h4 {
+    font-size: 24px;
+    color: #0b1f66;
+    font-weight: 700;
+}
+.delta_cont p {
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0 0 0 0;
+}
+.frights.text-center h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0b1f66;
+    margin: 0 0 10px 0;
+}
+
+.frights.text-center h3{
+	font-size:22px; color:#333;
+}
+
+.Hrefdt{}
+.Hrefdt h4 {
+    font-size: 20px;
+    color: #0b1f66;
+    margin: 0px 0 8px 0;
+    font-weight: 700;
+}
+.Hrefdt p{ font-size:14px; color:#333;}
+
+.whyus h4 {
+    font-size: 20px;
+    color: #0b1f66;
+    margin: 5px 0 8px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.whyus p {
+    font-size: 15px;
+    color: #081649;
+    line-height: 24px;
+}
+
+.ftr_sl_inlst {}
+.ftr_sl_inlst p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 0 0;
+}
+
+.ftr_sl_inlst h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 14px 0;
+}
+.ftr_sl_inlst ul{ list-style:none; padding:0px; margin:0px;}
+.ftr_sl_inlst ul li{ display:block; }
+.ftr_sl_inlst ul li a {
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    font-size: 14px;
+    line-height: 26px;
+}
+.ftr_sl_inlst h6 {
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+.ftr_sl_inlst h6 a{ color:#fff;}
+
+
+/*Form Customize*/
+.search-box1 .lowerform .element-input {width: 20.5%;}
+.search-box1 .lowerform .element-date, .search-box1 .lowerform .element-adult {width: 9.5%;}
+.search-box1 .lowerform .large-adult, .search-box1 .lowerform .large, .search-box1 .lowerform .large-date{border:0px ;border-bottom:1px solid #fff;background: transparent !important;
+border-radius: 0;font-size: 14px;font-weight: 700;color: #fff;padding: 0;}
+.activebutton, .activebutton input[name="RoundMultiOnewayTrip"] {accent-color: #e51937;}
+.activebutton {border-bottom: 1px solid #e51937;color: #ffffff;}
+.column, .column1, .column3 {color: #fff;}
+.element-search {padding-top: 0px;}
+.element-search .search-button {background-color: #e51937;border-radius: 0;margin-top: 9px;padding: 8px 21px;}
+#myTabContent {background: transparent;box-shadow: none;}
+.navbar-light .navbar-brand:hover, .call-right a:hover, .navbar-light .navbar-nav .nav-link:hover{color:#fff;}
+.large-adult option {color: #0d1222;}
+.booking-selection .nav-tabs{display:none;}
+.search-box1 .form {padding: 0;}
+
+
+
+@media screen and (max-width:768px){
+.search-box1 .lowerform .element-input {width:100%;}
+.search-box1 .lowerform .element-date, .search-box1 .lowerform .element-adult {width: 45.5%;}	
+.element-search .search-button {margin-top: 20px;padding: 8px 21px;width: 96%;}	
+#navbarText{background: rgb(0 0 0 / 89%);}
+a.navbar-brand img {height: 14px;}
+
+}
+
+/**/
